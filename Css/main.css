@@ -1,0 +1,207 @@
+body,h1,h2,h3,ul,p{
+       margin: 0;
+       padding: 0;
+}
+nav{
+  background-color: #35424a;
+  border-bottom: 3px solid rgba(245, 73, 4, 0.986);
+}
+.container{
+       width:70%;
+       margin: auto;
+}
+h2{
+    color: aliceblue;   
+    padding: 15px 0;
+    display: inline-block;
+   
+}
+span{
+       color: rgba(245, 73, 4, 0.986);
+      margin-right: 5px;
+}
+ul{
+        float: right;
+        font-size: 12px;
+}
+ul li{
+    padding: 23px 5px;
+      text-align: center ;
+       display: inline-block;
+}
+ul li a{
+        list-style: none;
+      text-decoration: none;  
+      color: aliceblue;
+      text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul li a:hover{
+       color:rgba(245, 73, 4, 0.986 );
+      
+}
+.fon{
+       height: 70vh;
+       background-image:url(../images/rasm.jpg) ;
+       background-repeat:no-repeat;
+      
+       background-size: cover;
+       text-align: center ;
+    
+       color: rgb(255, 255, 255);
+
+}
+h1{
+          font-family: 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+      font-size:xx-large;
+      padding-top:120px ;
+}
+.rasmText{
+   font-size:smaller;
+   font-family:  'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   font-size: 18px;
+}
+.clear{
+
+       clear:both;
+}
+.uchinchi{
+    
+       background-color: #273035 ;
+       padding: 0;
+}
+.text{
+       color: aliceblue;
+       display: inline-block;
+       padding:20px 0 ;
+}
+.right{
+      float: right;
+      padding: 17px 0;
+      font-family: sans-serif;
+      
+      }
+    
+input{
+       color: #da3e00;
+      font-size:10px ;
+       display: inline-block;
+       padding: 8px;
+       padding-right: 70px;
+      outline: 0;
+
+     
+}
+  input:hover {
+        outline:2px solid #da3e00;
+        color: #da3e00;
+  }
+
+button{
+       padding: 10px 20px;
+       background-color:#da3e00 ;
+       color: aliceblue;
+       outline: none;
+        display: inline-block;
+       font-size: 10px;
+  border: none;
+  
+  }
+  button:hover{
+         background-color:rgb(255, 254, 254);
+    color: #da3e00;
+    
+  }
+  .courses{
+         padding:35px 0;
+  }
+
+.col{
+         width:33.3%;
+        float :left;
+        text-align: center;
+     font-family: sans-serif;  
+     
+}
+.nom{
+padding-top: 10px;
+}
+
+
+.col img{
+    max-width: 100%;   
+width: 100px;
+height: 70px;
+}
+
+
+.oxirgi{
+       padding: 40px 0;
+        margin-top: 35px;
+       background-color: #da3e00;
+       text-align: center;
+       color: aliceblue;
+}
+.saidbar{
+margin-top:20px ;
+font-family: 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+.width70{
+       margin-top: 10px;
+width: 69%;
+float: left;
+}
+.text1{
+      margin-bottom: 15px;
+      padding-left: 0;
+}
+.text2{
+  background-color: #35424a; 
+  margin: 15px;
+  padding: 15px;
+  display: inline-block;  
+  margin-left: 0;
+  color: aliceblue;
+}
+.width30{
+width: 31%;
+float: right;
+ background-color: #35424a; 
+ margin-top: 20px;
+ color: aliceblue;
+
+
+}
+.width30 p,.width30 h4 {
+       padding:0 0 10px  15px ;
+}             
+.col1{
+       padding: 30px;
+       margin: 10px;
+       margin-left: 0;
+       background-color: #e0d5d5;
+       border: 1px solid rgb(204, 201, 201);
+}
+.width31{
+       width: 30%;
+       background-color: #35424a;
+       float: right;
+       color: aliceblue;
+margin-top: 15px;
+}
+ label, .width31 h4, .width31 input,textarea,.width31 button {
+       margin-left: 14px;
+}
+textarea{
+       outline: 0;
+}
+.width31 button{
+       margin-bottom: 10px;
+}
+  textarea:hover {
+        outline:2px solid #da3e00;
+        color: #da3e00;
+  }
+  .active{
+         color: #da3e00;
+  }
